@@ -12,6 +12,10 @@
   "author": "",
   "license": "BSD-2-Clause",
   "eslintConfig": {
+    "root": true,
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
     "extends": [
       "airbnb-base"
     ],
